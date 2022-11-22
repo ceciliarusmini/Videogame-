@@ -58,8 +58,8 @@ export default class Player extends Phaser.GameObjects.Sprite {
         this.anims.create({
             key: "playerJump",
             frames: this.anims.generateFrameNumbers("playerrun", {
-                start: 10, //iniziamo dal primo frame
-                end: 17, //e i primi 10 frame (fino alla fine della corsa)
+                start: 17, //iniziamo dal primo frame
+                end: 24, //e i primi 10 frame (fino alla fine della corsa)
             }),
             frameRate: 15, //aggiornimao l'immagine ogni 15 frame per rendere l'animazione non troppo rapida
             repeat: -1
